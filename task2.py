@@ -3,14 +3,13 @@ class House:
       self.numberOfFloors = 0
 
 
-   def setNewNumberOfFloors(floors):
+   def setNewNumberOfFloors(self, floors):
       numberOfFloors = floors
-      print(numberOfFloors)
-
-   def setNewNumberOfFloors1(self, floors):
-      numberOfFloors = floors
-      print('Этаж', numberOfFloors)
+      print( 'Этаж ', self.numberOfFloors)
+      print('ЭТАЖ', numberOfFloors)
+      return numberOfFloors
 
 house = House()
-house.setNewNumberOfFloors()
-house.setNewNumberOfFloors1(33)
+house.setNewNumberOfFloors(floors=33)
+print('Этаж=', house.setNewNumberOfFloors(floors=22))
+

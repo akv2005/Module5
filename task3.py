@@ -15,9 +15,9 @@ namber2_ = Buiding(1,'2')
 
 
 if Buiding. __eq__(self= number_, other= namber2_):
-    print('одинаковы')
+    print('одинаковы ')
 
 else:
-   print('не одинаковы')
+   print('не одинаковы ')
 
 

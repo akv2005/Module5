@@ -10,6 +10,6 @@ class House:
 #      return numberOfFloors
 
 house = House()
-house.setNewNumberOfFloors(floors=343
+house.setNewNumberOfFloors(floors=343)
 #print('Этаж=', house.setNewNumberOfFloors(floors=22))
 

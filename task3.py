@@ -1,7 +1,7 @@
 class Buiding:
    def __init__(self, numberOfFloors, buildingType):
-      self.numberOfFloors = numberOfFloors
-      self.buildingType = buildingType
+      self.numberOfFloors = int(numberOfFloors)
+      self.buildingType = str(buildingType)
 
 
    def __eq__(self, other):
@@ -10,7 +10,7 @@ class Buiding:
 
 
 number_= Buiding(1, '1')
-namber2_ = Buiding(1,'2')
+namber2_ = Buiding(2,'1')
 
 
 
